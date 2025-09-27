@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 2em;
+  color: #fff;
+  text-shadow: 2px 2px #ff69b4;
+}
+
+p {
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 2em;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+audio {
+  display: none;
+}
